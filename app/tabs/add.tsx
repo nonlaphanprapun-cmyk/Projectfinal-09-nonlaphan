@@ -2,6 +2,7 @@ import { View, TextInput, Button, StyleSheet, Text, Alert } from "react-native";
 import { useState, useEffect } from "react";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
+// สรา้ง Type ข้อมูล
 type TripPlan = {
   id: string; //ไว้แยกรายการ
   placeName: string;   // ชื่อสถานที่
