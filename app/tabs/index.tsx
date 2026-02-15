@@ -83,9 +83,4 @@ const styles = StyleSheet.create({
   budget: {
     marginTop: 5,
   },
-  delete: {
-    marginTop: 10,
-    color: "red",
-    fontWeight: "bold",
-  },
 });
